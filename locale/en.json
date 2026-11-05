@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Plugin Inspector",
+    "description": "Inspects a plugin on the Plugins page: its declarative patch entries and the code files installed behind it."
+  }
+}

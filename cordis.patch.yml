@@ -1,0 +1,3 @@
+- insert:
+    - id: plugin-inspector
+      name: '@liuweibing7/dsh-plugin-inspector'
