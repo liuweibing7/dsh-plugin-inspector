@@ -1,3 +1,5 @@
+English | [中文](README.zh.md)
+
 # dsh-plugin-inspector
 
 A DeepSeek Harness (DSH) plugin that shows what a plugin is made of, on its own page in the **Plugins** screen:
@@ -84,17 +86,6 @@ To try it from a checkout:
 ```sh
 dsh plugin --profile <profile> add /absolute/path/to/this/repo
 ```
-
-## 中文简介
-
-在 DSH 的**插件**页面，为每个插件增加一个「插件剖析」区块：
-
-- **声明**：显示 profile patch 与 bundle patch 中声明该插件的 YAML 原文、文件路径，可复制、可展开整个文件。
-- **代码**：显示安装目录里的 `package.json`、入口、浏览器 bundle、随包源码、README、类型文件；YAML/JSON/JS/Markdown 带语法高亮，Markdown 默认渲染，可切回原文。
-
-代码只在第一次打开「代码」Tab 时读取。所有文件读取都在 Host 进程完成，浏览器只展示；不写文件、不发网络请求。仅在 Web GUI 下可用。
-
-上方截图分别展示了插件页、**声明** 与 **代码** 两个 Tab 的实际效果。
 
 ## License
 
