@@ -7,6 +7,20 @@ A DeepSeek Harness (DSH) plugin that shows what a plugin is made of, on its own 
 
 The Code tab is loaded only when you open it; the declaration is loaded when the page opens.
 
+## Screenshots
+
+The plugin's page in the Plugins screen, with the inspector section open:
+
+![Plugin inspector on a plugin page](assets/screenshots/dsh-plugin-inspector-page.png)
+
+The **Declaration** tab reads the exact YAML that declares the plugin — the profile override and the bundle patch — with the file path beside it:
+
+![Declaration tab](assets/screenshots/dsh-plugin-inspector-declaration.png)
+
+The **Code** tab reads the files installed behind the plugin — Host entry, browser bundle, manifest, README — with syntax highlighting and a rendered/raw toggle for Markdown:
+
+![Code tab](assets/screenshots/dsh-plugin-inspector-code.png)
+
 ## Requirements
 
 - DSH Web GUI (`http://`). The section is not available in a `file://` shell.
@@ -79,6 +93,8 @@ dsh plugin --profile <profile> add /absolute/path/to/this/repo
 - **代码**：显示安装目录里的 `package.json`、入口、浏览器 bundle、随包源码、README、类型文件；YAML/JSON/JS/Markdown 带语法高亮，Markdown 默认渲染，可切回原文。
 
 代码只在第一次打开「代码」Tab 时读取。所有文件读取都在 Host 进程完成，浏览器只展示；不写文件、不发网络请求。仅在 Web GUI 下可用。
+
+上方截图分别展示了插件页、**声明** 与 **代码** 两个 Tab 的实际效果。
 
 ## License
 
