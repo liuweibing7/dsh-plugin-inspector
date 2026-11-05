@@ -10,7 +10,7 @@
  * Code tab is first shown, so opening a plugin page stays cheap.
  */
 window.__ModuleLoader__.load({
-  id: '@local/dsh-plugin-inspector',
+  id: '@liuweibing7/dsh-plugin-inspector',
   factory(require) {
     const React = require('react')
     const h = React.createElement
