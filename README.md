@@ -13,15 +13,15 @@ The Code tab is loaded only when you open it; the declaration is loaded when the
 
 The plugin's page in the Plugins screen, with the inspector section open:
 
-![Plugin inspector on a plugin page](assets/screenshots/dsh-plugin-inspector-page.png)
+![Plugin inspector on a plugin page](assets/screenshots/dsh-plugin-inspector-page-en.png)
 
 The **Declaration** tab reads the exact YAML that declares the plugin — the profile override and the bundle patch — with the file path beside it:
 
-![Declaration tab](assets/screenshots/dsh-plugin-inspector-declaration.png)
+![Declaration tab](assets/screenshots/dsh-plugin-inspector-declaration-en.png)
 
 The **Code** tab reads the files installed behind the plugin — Host entry, browser bundle, manifest, README — with syntax highlighting and a rendered/raw toggle for Markdown:
 
-![Code tab](assets/screenshots/dsh-plugin-inspector-code.png)
+![Code tab](assets/screenshots/dsh-plugin-inspector-code-en.png)
 
 ## Requirements
 
